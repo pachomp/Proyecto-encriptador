@@ -1,0 +1,125 @@
+/*Estilos para el diseño general*/
+*{
+    background: #F3F5FC;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+/*Estilos para el logo*/
+.logo{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 10%;
+}
+
+/*Estilos para el titulo*/
+#titulo{
+    display: inline-block;
+    vertical-align: top;
+    font-family:"Inter";
+    font-weight: bold;
+}
+
+/*Estilos para la seccion main que incluye los botones y las textArea*/
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+/*Estilos para el textArea donde se ingresa la palabra que se quiere encriptar/desencriptar*/
+.text-area{
+    border: none;
+    color: #0A3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+    resize: none;
+}
+
+/*Estilo para el texto provisional del TextArea*/
+::placeholder{color: #0A3871;}
+    .text-area:focus{
+        outline: none;
+}
+
+/*Estilos para el TextArea donde se muestra el mensaje encriptado*/
+.mensaje{
+    background: white;
+    background-image: url("/imagenes/Muñeco.png");
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 98px;
+    margin-top: 10px;
+    padding-left: 20px;
+    position:static;
+    resize: none;
+}
+
+/*Estilo para el TextArea mensaje cuando está seleccionado*/
+.mensaje:focus{
+    outline: none;
+}
+
+/*Estilo para la sección que contiene los botones de encriptar/desencriptar*/
+.botones{
+    display: flex;
+    margin-top: 18px;
+}
+
+/*Estilos para el boton desencriptar*/
+.btn-desencriptar{
+    background: #d8dfE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+/*Estilos para el boton encriptar*/
+.btn-encriptar{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+/*Estilos para el boton copiar*/
+.copiar{
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    position: absolute;
+    width: 336px;
+}
+
+/*Estilos para el texto de informacion*/
+.informacion{
+    color: #495057;
+    font-size: 18px;
+}
+
+/*Estilos para el footer de la página*/
+.footer{
+    color:black;
+    background-color:rgb(129, 148, 212);
+    padding: 5px;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 0.6rem;
+    font-weight: bold;
+    width: 100%;
+}
