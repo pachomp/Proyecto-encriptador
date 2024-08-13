@@ -6,6 +6,7 @@
 <p>El proyecto ya se encuentra culminado, totalmente funcional, pero abierto a cambios estéticos que no afectan la funcionalidad</p>
 <h2>Características</h2>
 <p>El encriptador solo permite ingresar letras minúsculas en el área de texto correspondiente (Las mayúsculas, los números y los caracteres especiales no pueden ser ingresados)</p>
+<img src="/imagenes/Captura1.png">
 <p>Una vez ingresado el texto se puede utilizar el botón encriptar que mostrará el mensaje encriptado en el área de texto que se encuentra al lado </p>
 <p>El área donde se muestra el texto resultante cuenta con un botón abajo que permite copiar el texto al portapeles</p>
 <p>Al lado del botón de encriptar se encuentra el botón desencriptar que devuelve los valores a las letras ingresadas</p>
